@@ -15,7 +15,7 @@
 - <img width="1453" height="402" alt="image" src="https://github.com/user-attachments/assets/5e5c3878-ee35-4b46-992e-15db9155b7fa" />
 
 ### Magic
-- `cd ~/Desktop/word/tools/openlane_working_dir/openlane/designs/picorv32a/runs`
+- `cd ~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs`
 - cd into most recent run
 - `magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky13BA/libs.tech/magic/sky130A.tech lef read tmp/merged.lef def read results/floorplan/picorv32a.floorplan.def &`
   - make sure to include ampersand
