@@ -101,4 +101,12 @@
    - `load [filename]`
    - `tech load [filename.tech]` to reload tech file
      - after loading, must run `drc check`
+   - `drc style [drc(full)|drc(fast)]` to change pedanticism 
+
+### Lab Results
  - <img width="821" height="313" alt="image" src="https://github.com/user-attachments/assets/54084d88-ff68-45e2-a37d-199fce0f7724" />
+ - <img width="631" height="364" alt="image" src="https://github.com/user-attachments/assets/5c499556-a3d7-4101-a1a5-50d54fad692b" />
+ - <img width="1544" height="842" alt="image" src="https://github.com/user-attachments/assets/345d912f-91d9-4027-a671-b002371b72c4" />
+ - 
+   - `cifmaxwidth dnwell_pnp 0 bend_illegal \ "Deep N-well cannot overlap pnp:dg (dnwell.9)"`
+   - `templayer dnwell_pnp dnwell` `and pnp`
